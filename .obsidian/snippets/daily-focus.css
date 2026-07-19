@@ -1,0 +1,59 @@
+/* 공통 게이지 */
+.focus-gauge {
+  --size: 1.2em;
+  --thickness: 3px;
+  --value: 0;
+
+  display: inline-grid;
+  place-items: center;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  font-size: 0.65em;
+  font-weight: 600;
+  margin: 0 4px;
+  color: var(--color);
+  background:
+    conic-gradient(var(--color) calc(var(--value) * 10%),
+      var(--bg) 0);
+}
+
+.focus-gauge::before {
+  content: "";
+  width: calc(100% - var(--thickness) * 2);
+  height: calc(100% - var(--thickness) * 2);
+  background: var(--inner-bg);
+  border-radius: 50%;
+}
+
+.focus-gauge span {
+  position: absolute;
+}
+
+/* 타입별 컬러 */
+.focus-C {
+  --color: #b388ff;
+}
+
+.focus-W {
+  --color: #4dabf7;
+}
+
+.focus-L {
+  --color: #69db7c;
+}
+
+.focus-R {
+  --color: #ffa94d;
+}
+
+/* 다크/라이트 대응 */
+.theme-dark .focus-gauge {
+  --bg: #2a2a2a;
+  --inner-bg: #1e1e1e;
+}
+
+.theme-light .focus-gauge {
+  --bg: #e9ecef;
+  --inner-bg: #ffffff;
+}

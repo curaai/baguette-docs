@@ -1,0 +1,4 @@
+.markdown-preview-view th:nth-child(2),
+.markdown-preview-view td:nth-child(2) {
+  min-width: 200px;
+}

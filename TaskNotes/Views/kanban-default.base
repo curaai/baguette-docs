@@ -1,0 +1,76 @@
+filters:
+  and:
+    - file.hasTag("task")
+formulas:
+  priorityWeight: if(priority=="lowest",0,if(priority=="low",1,if(priority=="medium",2,if(priority=="high",3,if(priority=="highest",4,999)))))
+  daysUntilDue: if((due.isEmpty() == false), ((number(date(due)) - number(today())) / 86400000).floor(), null)
+  isOverdue: (due.isEmpty() == false) && date(due) < today() && status != "done" && status != "archived"
+  dueDateDisplay: if(due.isEmpty(), "", if(date(due).format("YYYY-MM-DD") == today().format("YYYY-MM-DD"), "Today", if(date(due).format("YYYY-MM-DD") == (today() + "1 day").format("YYYY-MM-DD"), "Tomorrow", if(date(due).format("YYYY-MM-DD") == (today() - "1 day").format("YYYY-MM-DD"), "Yesterday", if(date(due) < today(), formula.daysUntilDue * -1 + "d ago", if(date(due).format("YYYY-MM-DD") <= (today() + "7 days").format("YYYY-MM-DD"), date(due).format("ddd"), date(due).format("MMM D")))))))
+  taskTypeTag: if(tags.contains("기획"), "기획", if(tags.contains("아트"), "아트", if(tags.contains("프로그래밍"), "프로그래밍", "미분류")))
+views:
+  - type: tasknotesKanban
+    name: 상태별 보드
+    filters:
+      and:
+        - contexts.contains("Prototype.V0")
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - status
+      - priority
+      - due
+      - tags
+    sort:
+      - property: tasknotes_manual_order
+        direction: DESC
+    options:
+      columnWidth: 280
+      hideEmptyColumns: false
+    hideTopLevelSubtasks: false
+    columnOrder: '{"note.status":["todo","in-progress","done","archived"]}'
+  - type: tasknotesKanban
+    name: 타입별 보드
+    groupBy:
+      property: formula.taskTypeTag
+      direction: ASC
+    order:
+      - status
+      - priority
+      - due
+      - tags
+    sort:
+      - property: formula.priorityWeight
+        direction: DESC
+    options:
+      columnWidth: 280
+      hideEmptyColumns: false
+    hideTopLevelSubtasks: false
+  - type: tasknotesKanban
+    name: 우선순위별 보드
+    groupBy:
+      property: priority
+      direction: DESC
+    order:
+      - status
+      - priority
+      - due
+      - tags
+    sort:
+      - property: due
+        direction: ASC
+    options:
+      columnWidth: 280
+      hideEmptyColumns: false
+    hideTopLevelSubtasks: false
+  - type: tasknotesTaskList
+    name: 전체 목록
+    order:
+      - status
+      - priority
+      - due
+      - tags
+    sort:
+      - property: formula.priorityWeight
+        direction: DESC
+    hideTopLevelSubtasks: false

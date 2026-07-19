@@ -1,0 +1,6 @@
+{
+  "autorun": false,
+  "template": "_template/daily-hour-task",
+  "folder": "Daily",
+  "format": "YYYY-MM/YYYY-MM-DD"
+}

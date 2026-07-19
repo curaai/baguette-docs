@@ -1,0 +1,21 @@
+{
+  "mobileToolbarCommands": [
+    "command-palette:open",
+    "obsidian-tasks-plugin:edit-task",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:configure-toolbar",
+    "editor:toggle-checklist-status"
+  ],
+  "promptDelete": false,
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "root",
+  "attachmentFolderPath": "./attachments",
+  "vimMode": true,
+  "mobilePullAction": "command-palette:open",
+  "showInlineTitle": false,
+  "showUnsupportedFiles": false
+}
