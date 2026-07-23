@@ -12,7 +12,7 @@
 | 2 | 아이디어 2~3 + 필요할 때 레퍼런스 브리핑 | Zenith + `game-designer`. 방향 선택 후 |
 | 3 | 기획 구체화 (PD 승인 후) | 컨텐츠→마나 / 흐름→`game-loop-planning` / 비주얼→art |
 
-`brainstorm` = 게임 컨셉 제로베이스. 컨텐츠 단위 시작은 kickoff.
+`brainstorm` = 기획서용 아이디어를 채팅에 정리. 컨텐츠 단위 **시작**은 kickoff.
 
 ## Agents
 
@@ -31,7 +31,7 @@
 | `skills/planning-kickoff/` | 컨텐츠 단위 기획 시작 Phase 1→2→3 |
 | `skills/analyze-game/` | 방향 선택용 한 페이지 레퍼런스 브리핑 |
 | `skills/analyze-deep-game/` | 게임 자체 심층 분석 + 선택한 항목의 별도 우리 게임 비교 |
-| `skills/brainstorm/` | 게임 컨셉 제로베이스 브레인스토밍 |
+| `skills/brainstorm/` | 컨셉·컨텐츠 기획용 아이디어를 채팅에 정리 |
 | `skills/game-planning/` | 순수 게임 기획서 작성 |
 | `skills/game-loop-planning/` | 게임 전체 흐름과 세션 구성 |
 | `skills/generate-spec/` | 프로그래머 스펙 |
