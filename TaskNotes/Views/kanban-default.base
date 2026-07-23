@@ -22,7 +22,7 @@ views:
       - due
       - tags
     sort:
-      - property: tasknotes_manual_order
+      - property: formula.priorityWeight
         direction: DESC
     options:
       columnWidth: 280
@@ -63,6 +63,7 @@ views:
       columnWidth: 280
       hideEmptyColumns: false
     hideTopLevelSubtasks: false
+    columnOrder: '{"note.priority":["highest","high","medium","low","lowest"]}'
   - type: tasknotesTaskList
     name: 전체 목록
     order:
