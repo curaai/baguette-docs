@@ -9,9 +9,9 @@
 | 폴더/문서 | 역할 |
 |-----------|------|
 | [`TaskNotes/`](TaskNotes/README.md) | **작업 트래킹 정본** — 규칙·태그·칸반 뷰 (`Tasks/` 태스크 노트) |
-| [`foundation/`](foundation/README.md) | PD 동기·렌즈 아카이브 |
+| [`foundation/`](foundation/README.md) | PD 동기·렌즈 아카이브 — 기자·특종 프레임 초안(`init`) |
 | [`planning/`](planning/README.md) | 컨텐츠 기획서 — [[planning/README]] 폴더링 규칙 |
-| [`narrative/`](narrative/README.md) | 내러티브 — 세계관·스토리·캐릭터·오프닝 |
+| [`narrative/`](narrative/README.md) | 내러티브 — 세계관·스토리·캐릭터·오프닝(기자 정본) |
 | [`reference/`](reference/) | 레퍼런스 게임 분석 메모 |
 
 ## 정본 우선순위 (충돌 시)
