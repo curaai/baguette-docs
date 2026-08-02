@@ -21,4 +21,5 @@
 |------|------|
 | `systems/ambient-sound.md` | 배경·환경 소리 재생 규칙 |
 | `systems/game-time.md` | 시계·슬롯·이벤트 연동 시간 규칙 |
+| `systems/weather.md` | 날씨 종류·종류별 연출 규칙 |
 | `systems/notebook.md` | 기자 수첩 |
