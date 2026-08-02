@@ -14,3 +14,11 @@
 
 파일명은 영어 `kebab-case.md`를 사용한다.
 폴더 안에 새로운 하위 폴더를 만들지 않는다.
+
+## systems
+
+| 문서 | 내용 |
+|------|------|
+| `systems/ambient-sound.md` | 배경·환경 소리 재생 규칙 |
+| `systems/game-time.md` | 시계·슬롯·이벤트 연동 시간 규칙 |
+| `systems/notebook.md` | 기자 수첩 |
