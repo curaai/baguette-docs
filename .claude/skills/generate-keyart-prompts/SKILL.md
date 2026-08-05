@@ -41,7 +41,7 @@ description: >
 
 | 순서 | 항목 | 있으면 | 없으면 |
 |------|------|--------|--------|
-| 1 | **시점·구도** | 그대로 | 원경만(능선·하늘) / 절터에서 본 원경(담장 힌트+능선) / 산길·입구에서 본 원경 / Other |
+| 1 | **시점·구도** | 그대로 | 원경만(능선·하늘) / 절터에서 본 원경(담장 힌트+능선) / 산길·일주문에서 본 원경 / Other |
 | 2 | **개수·시리즈** | 숫자·시리즈 그대로 | 단일 1장 / 시점만 2~3안 / **시간대 시리즈(낮·폭우밤·새벽)** |
 | 3 | **색감·테마·무드** | PD 문구 그대로 | art-direction·관련 narrative에서 뽑은 3~4옵션 + Other. **추론으로 채우지 말 것** |
 | 4 | **조명 연출** | 시간대·광원 지정 시 버전별 문단에 반영 | 단일 장면에 조명 문단 **포함** / **생략**(색감·무드만) / **시간대 시리즈로 교체** |
@@ -53,7 +53,7 @@ description: >
 1. `foundation/art-direction.md` — **실사에 가까운** 톤·고지 고립·팔레트 원칙. 레퍼런스 이미지가 있으면 이미지가 문서보다 우선.
 2. 장면 문서 (요청에 맞게 선택)
    - 절 주변·레이어 정본: `narrative/opening-mountain-landscape.md`
-   - 산길·입구: `narrative/environment/approach-entrance.md`
+   - 산길·일주문: `narrative/environment/approach-entrance.md`
    - 절터·외관: `narrative/environment/temple-exterior.md` 및 관련 `(temp)-*` (있을 때만)
 3. 레퍼런스 이미지 — `assets/`, `reference/`, 원화 폴더에 있으면 `Read`로 1~3장. **없으면 스킵 + 채팅에 명시**
 4. 관련 `Tasks/*.md`는 참고만 (자동 수정 금지)
