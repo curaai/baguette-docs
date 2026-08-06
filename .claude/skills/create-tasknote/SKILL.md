@@ -1,6 +1,8 @@
 ---
 name: create-tasknote
-description: PD가 제안한 짧은 태스크 제목으로 TaskNotes용 `Docs/Tasks/*.md` 초안(태그·priority·본문)을 채우고 승인 후에만 파일을 쓴다. 트리거: 태스크 생성, TaskNotes 할일, 할일 추가, create tasknote, 태스크 초안.
+description: >
+  PD가 제안한 짧은 태스크 제목으로 TaskNotes용 `Docs/Tasks/*.md` 초안(태그·priority·본문)을 채우고 승인 후에만 파일을 쓴다.
+  트리거: 태스크 생성, TaskNotes 할일, 할일 추가, create tasknote, 태스크 초안.
 ---
 
 # TaskNote 생성 (검수 후 저장)

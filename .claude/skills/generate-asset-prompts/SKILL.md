@@ -1,6 +1,10 @@
 ---
 name: generate-asset-prompts
-description: 프로젝트 문서와 레퍼런스 이미지를 근거로, Nano Banana(Gemini Flash Image)와 ComfyUI에 쓸 에셋 원화 프롬프트 파일을 assets/에 만든다. 캐릭터 배리에이션·배경 프롭·FX·UI 아이콘 등 키아트가 아닌 원화에 쓴다. 키아트·마케팅 장면·원경 키아트 프롬프트(채팅 붙여넣기)는 generate-keyart-prompts를 쓴다. 트리거: 원화 생성, 컨셉 아트 만들어줘, nano banana 프롬프트, comfyui 프롬프트, 에셋 이미지 생성, 프롬프트 파일 만들어줘, 캐릭터 표정 프롬프트, 프롭 원화.
+description: >
+  프로젝트 문서와 레퍼런스 이미지를 근거로, Nano Banana(Gemini Flash Image)와 ComfyUI에 쓸 에셋 원화 프롬프트 파일을 assets/에 만든다.
+  캐릭터 배리에이션·배경 프롭·FX·UI 아이콘 등 키아트가 아닌 원화에 쓴다.
+  키아트·마케팅 장면·원경 키아트 프롬프트(채팅 붙여넣기)는 generate-keyart-prompts를 쓴다.
+  트리거: 원화 생성, 컨셉 아트 만들어줘, nano banana 프롬프트, comfyui 프롬프트, 에셋 이미지 생성, 프롬프트 파일 만들어줘, 캐릭터 표정 프롬프트, 프롭 원화.
 ---
 
 # 에셋 원화 프롬프트 생성
