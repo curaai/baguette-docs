@@ -503,5 +503,6 @@
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
     }
-  ]
+  ],
+  "lastNotifiedReleaseVersion": "4.12.3"
 }

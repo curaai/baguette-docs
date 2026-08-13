@@ -17,5 +17,6 @@
   "vimMode": true,
   "mobilePullAction": "command-palette:open",
   "showInlineTitle": false,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "readableLineLength": false
 }
