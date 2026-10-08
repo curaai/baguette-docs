@@ -1,0 +1,6 @@
+{
+  "name": "docs",
+  "description": "baguette 기획/문서 작업용 스킬 모음",
+  "version": "0.1.0",
+  "skills": "./.claude/skills"
+}
