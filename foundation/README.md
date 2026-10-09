@@ -10,6 +10,7 @@ PD 동기·렌즈·초기 방향 아카이브. 체험·의도 정본은 `plannin
 | [prototype](prototype.md) | 프로토타입 전용 전개 — 단서·탑 돌이·추격 검증 |
 | [product-lens](product-lens.md) | 가격·장르·한 줄 약속 |
 | [horror-direction](horror-direction.md) | 공포의 근원·감각 연출·레퍼런스 조사 방향 |
+| [horror_idea](horror_idea.md) | 원혼 설화 참고와 사찰 괴담 모티프 제안 |
 | [art-direction](art-direction.md) | 아트 톤·공간 비주얼 원칙 |
 | [ai-scene-asset-pipeline](ai-scene-asset-pipeline.md) | AI 프랍 제작·변형·씬 배치 파이프라인 |
 | [glossary](glossary.md) | 불교·사찰 용어 (우리 용법) |
