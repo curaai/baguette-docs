@@ -59,5 +59,5 @@
 
 ## 참고
 
-- [캐릭터 스냅샷](characters.md) — 현재 확정된 인상·역할
-- [엔딩 — 봉인](ending-seal.md) · [엔딩 — 탈출](ending-escape.md) — 선택에 따른 결말
+- [기자·스님·강아지 요약](../cheat-sheet.md) — 현재 확정된 인상·역할
+- [엔딩 — 봉인](../story/ending-seal.md) · [엔딩 — 탈출](../story/ending-escape.md) — 선택에 따른 결말

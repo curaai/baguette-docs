@@ -80,6 +80,6 @@
 
 - [내러티브 허브](README.md) — 프로젝트 내러티브 문서 목록
 - [사건 순서 요약](narrative-summary.md) — 전체 흐름과 설계 의도
-- [캐릭터 스냅샷](characters.md) · [스님 캐릭터 시트](monk-character-sheet.md)
-- [1일차](day-1.md) · [2일차](day-2.md) · [3일차](day-3.md)
-- [봉인 엔딩](ending-seal.md) · [탈출 엔딩](ending-escape.md)
+- [스님 캐릭터 시트](characters/monk-character-sheet.md) · [기자 캐릭터 시트](characters/player-character-sheet.md)
+- [1일차](story/day-1.md) · [2일차](story/day-2.md) · [3일차](story/day-3.md)
+- [봉인 엔딩](story/ending-seal.md) · [탈출 엔딩](story/ending-escape.md)

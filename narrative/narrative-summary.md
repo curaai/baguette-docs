@@ -8,13 +8,13 @@
 
 | 구간 | 문서 |
 |------|------|
-| 캐릭터 | [characters](characters.md) |
-| 오프닝 | [어둠 속의 폭우](opening-mountain-path.md) |
-| 1일차 | [day-1](day-1.md) |
-| 2일차 | [day-2](day-2.md) |
-| 3일차 | [day-3](day-3.md) |
-| 봉인 엔딩 | [ending-seal](ending-seal.md) |
-| 탈출 엔딩 | [ending-escape](ending-escape.md) |
+| 캐릭터 | [기자·스님·강아지 요약](cheat-sheet.md) |
+| 오프닝 | [어둠 속의 폭우](environment/opening-mountain-path.md) |
+| 1일차 | [day-1](story/day-1.md) |
+| 2일차 | [day-2](story/day-2.md) |
+| 3일차 | [day-3](story/day-3.md) |
+| 봉인 엔딩 | [ending-seal](story/ending-seal.md) |
+| 탈출 엔딩 | [ending-escape](story/ending-escape.md) |
 | 공간 | [opening-mountain-landscape](opening-mountain-landscape.md) |
 
 ## 한 줄 스토리
