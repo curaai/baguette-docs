@@ -502,6 +502,36 @@
       "requestedAt": 1784185778285,
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/ambient 사운드.md",
+      "requestedAt": 1791799706382,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/스케쥴 기능 점검.md",
+      "requestedAt": 1791799728534,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/흙길위에 풀 스폰 막기.md",
+      "requestedAt": 1791799756998,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/번개효과.md",
+      "requestedAt": 1791799785052,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/지붕위에는 비 막기.md",
+      "requestedAt": 1791799797018,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
     }
   ],
   "lastNotifiedReleaseVersion": "4.12.5"
