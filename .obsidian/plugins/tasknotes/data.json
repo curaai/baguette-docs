@@ -532,6 +532,18 @@
       "requestedAt": 1791799797018,
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/더 어둡게.md",
+      "requestedAt": 1791969215217,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/손전등.md",
+      "requestedAt": 1791969225997,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
     }
   ],
   "lastNotifiedReleaseVersion": "4.12.5"
