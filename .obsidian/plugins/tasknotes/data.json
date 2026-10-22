@@ -237,7 +237,9 @@
       "{file.path|n(Path)}"
     ],
     "showAdvanced": false,
-    "requiredTags": [],
+    "requiredTags": [
+      "projects"
+    ],
     "includeFolders": [],
     "propertyKey": "",
     "propertyValue": ""
@@ -542,6 +544,30 @@
     {
       "taskPath": "Tasks/손전등.md",
       "requestedAt": 1791969225997,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/실내 꾸미기.md",
+      "requestedAt": 1792569282569,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/실내 조명 구성.md",
+      "requestedAt": 1792575224572,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/실내 상호작용 고민.md",
+      "requestedAt": 1792576200240,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/소재 마인드맵 그리기.md",
+      "requestedAt": 1792576232505,
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
     }

@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.hasTag("task")
+    - file.inFolder("Tasks")
 formulas:
   priorityWeight: if(priority=="lowest",0,if(priority=="low",1,if(priority=="medium",2,if(priority=="high",3,if(priority=="highest",4,999)))))
   daysUntilDue: if((due.isEmpty() == false), ((number(date(due)) - number(today())) / 86400000).floor(), null)
