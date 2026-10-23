@@ -1,5 +1,5 @@
 {
-  "tasksFolder": "Tasks/{{context}}",
+  "tasksFolder": "TasksNote/Tasks/{{context}}",
   "taskTag": "task",
   "taskIdentificationMethod": "tag",
   "defaultTaskStatus": "todo",
@@ -93,7 +93,8 @@
     "status",
     "priority",
     "due",
-    "tags"
+    "tags",
+    "checklistProgress"
   ],
   "inlineVisibleProperties": [
     "status",
@@ -102,7 +103,7 @@
     "tags"
   ],
   "enableBases": true,
-  "autoCreateDefaultBasesFiles": true,
+  "autoCreateDefaultBasesFiles": false,
   "commandFileMapping": {
     "open-calendar-view": "TaskNotes/Views/mini-calendar-default.base",
     "open-kanban-view": "TaskNotes/Views/kanban-default.base",
@@ -112,8 +113,8 @@
     "pomodoro-stats-base": "TaskNotes/Views/pomodoro-stats.base",
     "relationships": "TaskNotes/Views/relationships.base"
   },
-  "moveArchivedTasks": false,
-  "archiveFolder": "TaskNotes/Archive",
+  "moveArchivedTasks": true,
+  "archiveFolder": "TaskNote/Archive/{{context}}",
   "hideIdentifyingTagsMode": "all",
   "taskPropertyName": "",
   "taskPropertyValue": "",
@@ -582,7 +583,25 @@
       "requestedAt": 1792722844708,
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/Prototype.V0.1/실내 프랍 리스트업 & 준비.md",
+      "requestedAt": 1792737467663,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "Tasks/Prototype.V0.1/테스트.md",
+      "requestedAt": 1792737817362,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "TasksNotes/Prototype.V0.1/asdf.md",
+      "requestedAt": 1792738152043,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
     }
   ],
-  "lastNotifiedReleaseVersion": "4.12.5"
+  "lastNotifiedReleaseVersion": "4.14.0"
 }
