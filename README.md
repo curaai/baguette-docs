@@ -12,7 +12,7 @@
 | [`foundation/`](foundation/README.md) | PD 동기·렌즈 아카이브 — 기자·특종 프레임 초안(`init`) |
 | [`planning/`](planning/README.md) | 컨텐츠 기획서 — [[planning/README]] 폴더링 규칙 |
 | [`narrative/`](narrative/README.md) | 내러티브 — 세계관·스토리·캐릭터·오프닝(기자 정본) |
-| [`reference/`](reference/) | 레퍼런스 게임 분석 메모 |
+| [`art/`](art/) | 아트 자료 — `style-board/`(키아트·스타일 프레임), `asset-sources/`(에셋 원화·턴어라운드), `reference-image-board/`(공간별 레퍼런스 이미지, 폴더마다 `meta.txt`로 `링크 - 제목 - 파일이름` 매핑) |
 
 ## 정본 우선순위 (충돌 시)
 
