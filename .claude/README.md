@@ -38,6 +38,7 @@
 | `skills/planning-content-narrative/` | narrative 컨텐츠 |
 | `skills/create-tasknote/` | TaskNotes 초안 |
 | `skills/generate-asset-prompts/` | 에셋 프롬프트 |
+| `skills/art-bible/` | `foundation/art-direction.md`를 아홉 섹션으로 작성·보강 (art-director 초안 → PD 승인) |
 
 ## 경로 규칙
 
