@@ -39,7 +39,7 @@
   "showFileMenu": true,
   "authorInHistoryView": "hide",
   "dateInHistoryView": false,
-  "diffStyle": "split",
+  "diffStyle": "git_unified",
   "diffTimeout": 50,
   "autoStageOnEmptyIndex": true,
   "hunks": {
