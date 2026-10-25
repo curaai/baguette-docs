@@ -15,7 +15,7 @@ Baguette 프로젝트 문서를 모아 둔 폴더입니다. Obsidian에서도 �
 | [`narrative/`](narrative/README.md) | 기자 시점의 세계관·이야기·캐릭터·오프닝 |
 | [`art/`](art/) | 그림 자료 폴더 |
 | [`art/style-board/`](art/style-board/) | 대표 배경 그림과 스타일 참고 이미지 |
-| [`art/asset-sources/`](art/asset-sources/) | 게임에 넣을 소품·캐릭터 그림 |
+| [`art/concepts/`](art/concepts/README.md) | 프로젝트에서 제작한 캐릭터·소품·환경 원화, 모델링 참고 시트와 배경 컨셉 아트 |
 | [`art/reference-image-board/`](art/reference-image-board/) | 공간 참고 이미지. `meta.txt`에 링크·제목·파일 이름을 적습니다. |
 
 ## 문서 내용이 다를 때
