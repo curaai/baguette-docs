@@ -1,5 +1,5 @@
 {
-  "tasksFolder": "TasksNote/Tasks/{{context}}",
+  "tasksFolder": "TaskNotes/Tasks/{{context}}",
   "taskTag": "task",
   "taskIdentificationMethod": "tag",
   "defaultTaskStatus": "todo",
@@ -114,7 +114,7 @@
     "relationships": "TaskNotes/Views/relationships.base"
   },
   "moveArchivedTasks": true,
-  "archiveFolder": "TaskNote/Archive/{{context}}",
+  "archiveFolder": "TaskNotes/Archive/{{context}}",
   "hideIdentifyingTagsMode": "all",
   "taskPropertyName": "",
   "taskPropertyValue": "",
@@ -599,6 +599,12 @@
     {
       "taskPath": "TasksNotes/Prototype.V0.1/asdf.md",
       "requestedAt": 1792738152043,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "TasksNote/Tasks/Prototype.V0.1/바닥 나무 발소리.md",
+      "requestedAt": 1792931394515,
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
     }
