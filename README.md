@@ -1,23 +1,32 @@
 #baguette
 
-# Docs — 문서 허브
+# 문서 안내
 
-이 폴더는 **Baguette** 프로젝트의 **Obsidian vault 루트**이자 문서 트리다 (`baguette-docs`). 아래 표에서 목적별로 진입한다.
+Baguette 프로젝트 문서를 모아 둔 폴더입니다. Obsidian에서도 이 폴더를 엽니다. 필요한 문서는 아래 표에서 찾으세요.
 
-## 트리
+## 문서 목록
 
-| 폴더/문서 | 역할 |
+| 폴더/문서 | 내용 |
 |-----------|------|
-| [`TaskNotes/`](TaskNotes/README.md) | **작업 트래킹 정본** — 규칙·태그·칸반 뷰 (`Tasks/` 태스크 노트) |
-| [`foundation/`](foundation/README.md) | PD 동기·렌즈 아카이브 — 기자·특종 프레임 초안(`init`) |
-| [`planning/`](planning/README.md) | 컨텐츠 기획서 — [[planning/README]] 폴더링 규칙 |
-| [`narrative/`](narrative/README.md) | 내러티브 — 세계관·스토리·캐릭터·오프닝(기자 정본) |
-| [`art/`](art/) | 아트 자료 — `style-board/`(키아트·스타일 프레임), `asset-sources/`(에셋 원화·턴어라운드), `reference-image-board/`(공간별 레퍼런스 이미지, 폴더마다 `meta.txt`로 `링크 - 제목 - 파일이름` 매핑) |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | 문서를 짧고 쉬운 말로 쓰는 규칙 |
+| [`TaskNotes/`](TaskNotes/README.md) | 할 일 관리 규칙과 상태판. 진행 중인 일은 `Tasks/`에 둡니다. |
+| [`foundation/`](foundation/README.md) | PD의 기획 배경과 기자·특종 관련 초기 문서 |
+| [`planning/`](planning/README.md) | 콘텐츠 기획서와 폴더 안내 |
+| [`narrative/`](narrative/README.md) | 기자 시점의 세계관·이야기·캐릭터·오프닝 |
+| [`art/`](art/) | 그림 자료 폴더 |
+| [`art/style-board/`](art/style-board/) | 대표 배경 그림과 스타일 참고 이미지 |
+| [`art/asset-sources/`](art/asset-sources/) | 게임에 넣을 소품·캐릭터 그림 |
+| [`art/reference-image-board/`](art/reference-image-board/) | 공간 참고 이미지. `meta.txt`에 링크·제목·파일 이름을 적습니다. |
 
-## 정본 우선순위 (충돌 시)
+## 문서 내용이 다를 때
 
-PD 결정 > `planning/`(체험·의도) > `foundation/`(초안). **구현 진실 = 코드.** 실행은 `Tasks/`(활성 태스크만). 내러티브는 planning 초안 단계에서 blocking 아님.
+PD가 정한 내용이 가장 먼저입니다. 그다음은 아래 순서를 따릅니다.
 
-## 작업 트래킹
+1. `planning/`의 플레이 경험과 기획 의도
+2. `foundation/`의 초기 생각과 초안
 
-프로젝트 할 일은 문서에 흩뿌리지 않고 **TaskNotes** 로 관리한다. 규칙·경로·태그는 [`TaskNotes/README.md`](TaskNotes/README.md).
+실제 게임 동작은 코드가 기준입니다. 진행 중인 일은 `Tasks/`에서 관리합니다. 이야기 문서는 기획 초안의 필수 조건이 아닙니다.
+
+## 프로젝트 할 일
+
+프로젝트 할 일은 여러 문서에 나누어 적지 않고 **TaskNotes**에서 관리합니다. 규칙·태그·사용법은 [`TaskNotes/README.md`](TaskNotes/README.md)에서 확인하세요.
