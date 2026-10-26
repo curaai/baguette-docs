@@ -19,7 +19,7 @@ description: >
 | 용도 | 경로 |
 |------|------|
 | 출력 (정본) | `foundation/art-direction.md` |
-| 입력: 한 줄 약속·가격·장르 | `foundation/product-lens.md` |
+| 입력: 한 줄 약속·가격·장르 | `foundation/game-pitch.md` |
 | 입력: 공포의 근원·감각 연출 | `foundation/horror-direction.md` |
 | 입력: 프로토타입 장면 | `foundation/prototype.md`, `foundation/init.md` |
 | 입력: AI 에셋 제작 흐름 | `foundation/ai-scene-asset-pipeline.md` |
@@ -29,7 +29,7 @@ description: >
 
 ## Phase 0: 컨텍스트 확인
 
-1. **필러 확보.** 이 프로젝트에는 별도 필러 문서가 없다. `product-lens.md`의 한 줄 약속과 `horror-direction.md`의 공포의 근원을 필러 대용으로 읽고, 추린 내용을 PD에게 한 번 보여 준다. 틀리면 PD가 고친다.
+1. **필러 확보.** 이 프로젝트에는 별도 필러 문서가 없다. `game-pitch.md`의 한 줄 약속과 `horror-direction.md`의 공포의 근원을 필러 대용으로 읽고, 추린 내용을 PD에게 한 번 보여 준다. 틀리면 PD가 고친다.
 2. **기존 룩 문장 읽기.** `foundation/art-direction.md`를 통째로 읽는다. 이미 적혀 있는 문장은 해당 섹션 초안의 근거로 쓰고, PD 요청 없이 바꾸지 않는다.
 3. **환경 문서의 비주얼 절 확인.** `narrative/environment/`에서 팔레트·라이팅·재질을 이미 정해 둔 문장을 찾는다 (`Grep`으로 `팔레트|조명|재질|안개|비네팅`). 이미 확정된 값은 새로 정하지 말고 해당 섹션 초안의 근거로 쓴다.
 4. **파일 만들기.** `art-direction.md`에 `## 1.`~`## 9.` 제목이 없으면 첫 섹션을 승인받을 때 `AskUserQuestion`으로 "`foundation/art-direction.md`를 아홉 섹션 구조로 바꿔도 될까요?"를 먼저 묻는다. 승인되면 아래 구조로 파일을 다시 쓴다. 기존 문장은 해당 섹션에 원문 그대로 옮기고, 나머지 섹션은 `[To be designed]`로 둔다. 이후 승인된 섹션이 자기 `[To be designed]` 줄을 `Edit`로 교체한다.
