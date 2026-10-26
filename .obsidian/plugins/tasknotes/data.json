@@ -511,6 +511,12 @@
       "requestedAt": 1793010431001,
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "TaskNotes/Tasks/Prototype.V0.1/한국식 절, 불교가 가지는 특색 정리.md",
+      "requestedAt": 1793017346973,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
     }
   ],
   "lastNotifiedReleaseVersion": "4.14.0"
