@@ -493,6 +493,25 @@
   },
   "enableDebugLogging": false,
   "lastSeenVersion": "4.11.1",
-  "googleCalendarSyncQueue": [],
+  "googleCalendarSyncQueue": [
+    {
+      "taskPath": "TaskNotes/Tasks/Prototype.V0.1/레퍼런스 찾기.md",
+      "requestedAt": 1793007475661,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "TaskNotes/Tasks/Prototype.V0.1/괴물연구소에서 관련 소재 찾기.md",
+      "requestedAt": 1793008771956,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "TaskNotes/Tasks/Prototype.V0.1/기획 분석.md",
+      "requestedAt": 1793010431001,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    }
+  ],
   "lastNotifiedReleaseVersion": "4.14.0"
 }
