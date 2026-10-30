@@ -12,6 +12,7 @@ Baguette 프로젝트 문서를 모아 둔 폴더입니다. Obsidian에서도 �
 | [`TaskNotes/`](TaskNotes/README.md) | 할 일 관리 규칙과 상태판. 진행 중인 일은 `Tasks/`에 둡니다. |
 | [`foundation/`](foundation/README.md) | PD의 기획 배경과 기자·특종 관련 초기 문서 |
 | [`planning/`](planning/README.md) | 콘텐츠 기획서와 폴더 안내 |
+| [`analysis/`](analysis/README.md) | 공포 게임·영화와 소재 분석 |
 | [`narrative/`](narrative/README.md) | 기자 시점의 세계관·이야기·캐릭터·오프닝 |
 | [`art/`](art/) | 그림 자료 폴더 |
 | [`art/style-board/`](art/style-board/) | 대표 배경 그림과 스타일 참고 이미지 |
