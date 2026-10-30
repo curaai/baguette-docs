@@ -15,7 +15,7 @@ memory: project
 
 - 컨텐츠와 게임 규칙: `game-designer`
 - 화면의 분위기와 미술 방향: `art-director`
-- 세계관과 설정: `narrative-game-designer`
+- 세계관과 설정: `narrative-director`
 - 대사와 플레이어에게 보이는 글: `writer`
 
 한 요청에 여러 담당자가 필요하면 서로 겹치지 않게 일을 나눈다.
@@ -24,7 +24,7 @@ memory: project
 새 기획은 `planning-kickoff` 스킬에 맡긴다.
 외부 게임 사례는 `game-designer`가 필요할 때 `analyze-game` 스킬로 조사한다.
 게임 전체 흐름과 세션 구성은 `game-loop-planning` 스킬에 맡긴다.
-프로그래머용 스펙은 `generate-spec` 스킬에 맡긴다.
+기획의 구현 작업 분해는 `create-tasknote` 스킬에 맡긴다. 기존 스펙 요청은 `generate-spec`으로 받아 같은 절차에 연결한다.
 이 파일에 킥오프 절차나 기획서 작성 규칙을 중복해서 적지 않는다.
 
 ## 하지 않는 일

@@ -12,14 +12,15 @@ description: >
 **zenith-orchestrator** 가 기존 Baguette 안 **컨텐츠/시스템 한 덩어리**를 새로 기획할 때 **기본 진입**.  
 아이디어만 막혀서 후보를 좁힐 때는 `brainstorm`(이 스킬 대체 아님).
 
-순서는 **1 → 2 → 3 강제**. 앞 단계 PD 잠금 없이 다음으로 가지 않는다.
+새 기획의 순서는 **1 → 2 → 3**이다. 앞 단계 PD 잠금 없이 다음으로 가지 않는다.
+이미 승인된 방향의 후속 수정은 해당 스킬에서 이어간다. 같은 범위의 요소·방향 선택을 다시 요구하지 않는다.
 
 ## Phase 1 — 요소 제안 (PD ↔ Zenith)
 
 **목표:** 다룰 **최초 아이템/요소** 후보를 제안·좁힘. 문서 본문 Write 전.
 
 1. 주제 키워드만 와도 foundation·기존 planning을 짧게 훑고 **요소 후보**를 낸다.
-2. **AskUserQuestion**으로 범위 잠금 (텍스트만 "어때요?" 금지). 도구 없으면 옵션 라벨을 구조화해 부모가 고르게.
+2. **구조화된 질문 도구**로 범위 잠금 (텍스트만 "어때요?" 금지). 질문 도구가 없으면 공통 작업 규칙을 따른다.
 3. **산출:** 잠긴 요소 목록 ≤1페이지 (채팅 또는 짧은 memo).
 
 **금지:** `Docs/planning/**` 본문 Write. 마나에게 풀 기획서 위임 금지.
@@ -30,11 +31,11 @@ description: >
 
 1. Zenith가 **간단한 아이디어 2~3개** (컨텐츠 단위만). 여기서 막히면 `brainstorm`으로 채팅 정리를 받고 돌아온다.
 2. 외부 사례가 선택에 필요하면 `game-designer`가 `analyze-game` 스킬로 한 페이지 브리핑 작성.
-   - 기존 `Docs/reference/reference-game-*.md` 우선 Read.
+   - `planning/README.md`에서 요청과 관련된 기존 `planning/references/` 자료를 찾아 읽는다.
    - 부족하면 `analyze-game` → `planning/references/<주제-kebab>.md`.
    - 실제 장면·핵심 차이·우리 선택지 2~3개만 작성.
    - 외부 사례가 필요 없으면 생략.
-3. Phase 2 끝: **AskUserQuestion**으로 PD가 방향 선택.
+3. Phase 2 끝: **구조화된 질문 도구**로 PD가 방향 선택.
 
 **금지:** `Docs/planning/**` 풀 기획서 Write. Phase 3 승인 전 마나 풀 본문 위임 금지.
 
@@ -60,7 +61,7 @@ PD가 Phase 2 방향을 **명시 승인**한 뒤에만.
 
 ```
 Kickoff:
-- [ ] Phase 1: 요소 잠금 (AskUserQuestion) — planning Write 없음
+- [ ] Phase 1: 요소 잠금 (구조화된 질문 도구) — planning Write 없음
 - [ ] Phase 2: 아이디어 2~3 + 필요할 때만 레퍼런스 브리핑 — 방향 선택
 - [ ] Phase 3: PD 승인 후에만 마나/art 위임
 ```

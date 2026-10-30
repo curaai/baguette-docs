@@ -31,13 +31,13 @@ description: >
 | 캐릭터·프롭·UI·일반 원화 + `assets/{이름} 프롬프트/` 파일 | `generate-asset-prompts` |
 | ComfyUI 키워드 변환·파일 저장 | `generate-asset-prompts` (이 스킬에서 대행하지 않음) |
 
-프롬프트 **문단 골격**(공간 → 구도 → 조명 → 스타일 → 기술조건)은 범용 스킬과 같은 질서를 따르되, 실외는 **레이어·시점**, 실내는 **방의 구조·시선 흐름·광원 방향**을 필수에 올린다. 공통 골격은 [template.md](template.md), 실내 세부 규칙은 [indoor-background.md](indoor-background.md)를 따른다.
+프롬프트 **문단 골격**(공간 → 구도 → 조명 → 스타일 → 기술조건)은 범용 스킬과 같은 질서를 따르되, 실외는 **레이어·시점**, 실내는 **방의 구조·시선 흐름·광원 방향**을 필수에 올린다. 공통 골격은 같은 폴더의 `template.md`, 실내 세부 규칙은 같은 폴더의 `indoor-background.md`를 따른다.
 
 ## 워크플로
 
 ### 0. PD 입력 게이트
 
-사용자 메시지에서 아래를 파싱한다. **기본값이 지정된 항목은 그 기본값을 적용**하고, 그 밖에 비어 있거나 애매한 항목만 `AskUserQuestion`을 **한 번씩** 호출한다. 텍스트만 “어때요?”는 금지. `AskUserQuestion` 도구가 없으면 옵션 라벨을 짧게 나열해 PD가 고르게 한다. **확정 전 프롬프트 본문 출력 금지.**
+사용자 메시지에서 아래를 파싱한다. **기본값이 지정된 항목은 그 기본값을 적용**하고, 그 밖에 비어 있거나 애매한 항목만 구조화된 질문 도구를 **한 번씩** 호출한다. 텍스트만 “어때요?”는 금지. 질문 도구가 없으면 공통 작업 규칙을 따른다. **확정 전 프롬프트 본문 출력 금지.**
 
 | 순서 | 항목 | 있으면 | 없으면 |
 |------|------|--------|--------|
@@ -52,13 +52,13 @@ description: >
 
 1. `foundation/art-direction.md` — **실사에 가까운** 톤·고지 고립·팔레트 원칙. 레퍼런스는 사용자가 지정한 참고 요소(구도·스타일 등)를 반영하고, 공간 설정은 장면 문서를 따른다.
 2. 장면 문서 (요청에 맞게 선택)
-   - 절 주변·레이어 정본: `narrative/opening-mountain-landscape.md`
+   - 절 주변·레이어 정본: `narrative/environment/opening-mountain-landscape.md`
    - 산길·일주문: `narrative/environment/approach-entrance.md`
    - 절터·외관: `narrative/environment/temple-exterior.md` 및 관련 `(temp)-*` (있을 때만)
    - 실내 공통: `narrative/environment/(temp)-temple-interior.md`
    - 실내 건물별: `narrative/environment/(temp)-temple-building-{daeungjeon|yosachae|myeongbujeon|utility}.md` 중 요청 공간에 맞는 문서
 3. 레퍼런스 이미지 — `assets/`, `reference/`, 원화 폴더에 있으면 `Read`로 1~3장. **없으면 스킵 + 채팅에 명시**
-4. 관련 `Tasks/*.md`는 참고만 (자동 수정 금지)
+4. 관련 진행 중 태스크는 `TaskNotes/Tasks/`에서 참고한다. 작업 범위는 바꾸지 않고, 중단·인계 기록은 공통 작업 규칙을 따른다.
 
 경로 `planning/direction/` 등은 이 레포에 없으면 찾지 말고 위 목록을 쓴다.
 
@@ -75,11 +75,11 @@ description: >
 
 공통 배제(영문 negative 감각으로 본문에 명시): characters walking the path as heroes, tourist brochure temple, readable signage/text, watermark, hyper-detailed explorable foreground filling the frame.
 
-**실내 배경이면 위 표의 산·하늘 레이어를 적용하지 않는다.** 대신 [indoor-background.md](indoor-background.md)의 닫힌 공간, 입구에서 초점까지의 시선 흐름, 실내 광원 규칙을 적용한다.
+**실내 배경이면 위 표의 산·하늘 레이어를 적용하지 않는다.** 대신 같은 폴더의 `indoor-background.md`의 닫힌 공간, 입구에서 초점까지의 시선 흐름, 실내 광원 규칙을 적용한다.
 
 ### 3. 시점·시간대
 
-**시점**은 §0에서 고른 그대로 장면 문단에 쓴다. 실내는 장수 미지정 시 [indoor-background.md](indoor-background.md)의 기본 두 구도(메인 배경 설정 보드 + 서브 단일 실내 배경)를 각각 별도 이미지용 프롬프트로 출력한다. 두 장을 한 이미지의 분할 패널로 합치지 않는다. 사용자가 장수나 구도를 지정하면 해당 요청을 우선한다.
+**시점**은 §0에서 고른 그대로 장면 문단에 쓴다. 실내는 장수 미지정 시 같은 폴더의 `indoor-background.md`의 기본 두 구도(메인 배경 설정 보드 + 서브 단일 실내 배경)를 각각 별도 이미지용 프롬프트로 출력한다. 두 장을 한 이미지의 분할 패널로 합치지 않는다. 사용자가 장수나 구도를 지정하면 해당 요청을 우선한다.
 
 **시간대 시리즈**를 고르면 한 응답에 **공통 베이스 + 버전별 교체 문단**으로 낸다 (파일로 쪼개지 않음).
 
@@ -93,7 +93,7 @@ description: >
 
 ### 4. Nano Banana 프롬프트 골격
 
-출력은 채팅 마크다운만. [template.md](template.md) 순서를 따르며, 실내 기본 두 장은 `프롬프트 1 — 메인: 배경 설정 보드`, `프롬프트 2 — 서브: 단일 실내 배경`으로 구분한다. 각 블록은 서로 별도로 생성하는 이미지 한 장을 설명한다.
+출력은 채팅 마크다운만. 같은 폴더의 `template.md` 순서를 따르며, 실내 기본 두 장은 `프롬프트 1 — 메인: 배경 설정 보드`, `프롬프트 2 — 서브: 단일 실내 배경`으로 구분한다. 각 블록은 서로 별도로 생성하는 이미지 한 장을 설명한다.
 
 1. `[컨셉]` 한 줄 + 근거 경로 + (있으면) `⚠️ 미결` + (있으면) 참조 이미지 경로
 2. **공간 고정** — 실외는 근/중/원/하늘 레이어, 실내는 방의 구조·시선 축·광원 방향을 문장으로 고정

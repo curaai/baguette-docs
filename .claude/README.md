@@ -1,46 +1,46 @@
-# baguette-docs/.claude (기획 Agent·Skill 정본)
+# 기획 에이전트·스킬 안내
+이 폴더는 Baguette 기획·서사·분석 에이전트와 스킬의 기준이다.
 
-이 폴더가 Baguette 기획·서사·분석 Agent/Skill 의 정본이다 (`baguette-docs`).
+## 사용 원칙
+새 기획은 `planning-kickoff`로 시작한다. 승인된 방향의 후속 수정은 해당 스킬에서 이어간다.
+공통 승인·질문·기록 원칙은 루트 작업 규칙을 따른다. 세부 절차는 각 스킬에서 관리한다.
+이 vault를 단독으로 열면 문서 경로는 vault 루트 기준이다. 게임 저장소에서 보이는 `Docs/` 접두사를 이 안에 다시 만들지 않는다.
+태스크 경로와 속성은 TaskNotes 안내에서 확인한다. `.codex`는 이 폴더를 가리키므로 두 곳을 따로 수정하지 않는다.
 
-## 기획 킥오프 (제니스 기본 진입)
+## 에이전트
 
-새 주제·「기획 시작」→ **`skills/planning-kickoff/`** Phase **1→2→3** (스킵·마나 숏컷 금지).
-
-| Phase | 내용 | 담당 |
-|-------|------|------|
-| 1 | 최초 아이템/요소 제안·잠금 | PD ↔ Zenith (AskUserQuestion). planning 본문 금지 |
-| 2 | 아이디어 2~3 + 필요할 때 레퍼런스 브리핑 | Zenith + `game-designer`. 방향 선택 후 |
-| 3 | 기획 구체화 (PD 승인 후) | 컨텐츠→마나 / 흐름→`game-loop-planning` / 비주얼→art |
-
-`brainstorm` = 기획서용 아이디어를 채팅에 정리. 컨텐츠 단위 **시작**은 kickoff.
-
-## Agents
-
-| 경로 | 역할 |
+| 문서 | 역할 |
 |------|------|
-| `agents/zenith-orchestrator.md` | 오케스트레이터 — 킥오프 1→2→3 후 위임 |
-| `agents/game-designer.md` (마나) | `Docs/planning/**` 컨텐츠 기획서 (킥오프 Phase 3+) |
-| `agents/narrative-game-designer.md` | 세계관·용어·설정 정합 |
-| `agents/writer.md` | 대사·로어·플레이어 향 텍스트 |
-| `agents/art-director.md` | 아트 바이블·비주얼 스펙 문서 |
+| [제니스](agents/zenith-orchestrator.md) | 요청을 담당자와 스킬에 연결 |
+| [게임 디자이너](agents/game-designer.md) | 플레이 장면·규칙·컨텐츠 기획 |
+| [내러티브 디렉터](agents/narrative-director.md) | 세계관·용어·서사 정합 |
+| [라이터](agents/writer.md) | 대사·로어·게임 안의 문장 |
+| [아트 디렉터](agents/art-director.md) | 아트 방향·비주얼 규칙 |
 
-## Skills
+## 스킬
 
-| 경로 | 역할 |
+| 문서 | 역할 |
 |------|------|
-| `skills/planning-kickoff/` | 컨텐츠 단위 기획 시작 Phase 1→2→3 |
-| `skills/analyze-game/` | 방향 선택용 한 페이지 레퍼런스 브리핑 |
-| `skills/analyze-deep-game/` | 게임 자체 심층 분석 + 선택한 항목의 별도 우리 게임 비교 |
-| `skills/brainstorm/` | 컨셉·컨텐츠 기획용 아이디어를 채팅에 정리 |
-| `skills/game-planning/` | 순수 게임 기획서 작성 |
-| `skills/game-loop-planning/` | 게임 전체 흐름과 세션 구성 |
-| `skills/generate-spec/` | 프로그래머 스펙 |
-| `skills/planning-content-narrative/` | narrative 컨텐츠 |
-| `skills/create-tasknote/` | TaskNotes 초안 |
-| `skills/generate-asset-prompts/` | 에셋 프롬프트 |
-| `skills/art-bible/` | `foundation/art-direction.md`를 아홉 섹션으로 작성·보강 (art-director 초안 → PD 승인) |
+| [planning-kickoff](skills/planning-kickoff/SKILL.md) | 새 컨텐츠의 요소와 방향 선택 |
+| [brainstorm](skills/brainstorm/SKILL.md) | 아이디어 후보를 채팅에서 정리 |
+| [game-planning](skills/game-planning/SKILL.md) | 순수 게임 기획서 |
+| [game-loop-planning](skills/game-loop-planning/SKILL.md) | 게임 전체 흐름과 세션 |
+| [analyze-game](skills/analyze-game/SKILL.md) | 방향 선택용 외부 사례 브리핑 |
+| [analyze-deep-game](skills/analyze-deep-game/SKILL.md) | 외부 게임 심층 분석 |
+| [planning-content-narrative](skills/planning-content-narrative/SKILL.md) | 세계관·설정·용어 |
+| [create-tasknote](skills/create-tasknote/SKILL.md) | 태스크 초안·기획의 작업 분해 |
+| [generate-spec](skills/generate-spec/SKILL.md) | 기존 스펙 요청을 TaskNotes 초안으로 연결 |
+| [art-bible](skills/art-bible/SKILL.md) | 아트 디렉션 작성·보강 |
+| [generate-asset-prompts](skills/generate-asset-prompts/SKILL.md) | 에셋 원화 프롬프트 파일 |
+| [generate-keyart-prompts](skills/generate-keyart-prompts/SKILL.md) | 실내외 장면·키아트 프롬프트 |
+| [auto-commit](skills/auto-commit/SKILL.md) | 요청받은 변경 사항 커밋 |
 
-## 경로 규칙
+## 템플릿·작성 자료
 
-스킬·에이전트 문서의 `Docs/...` 는 **이 vault가 게임 레포의 `Docs/` submodule로 붙을 때** 기준이다.  
-Cursor에서 `baguette-docs`만 단독으로 열면 vault 루트 = 여기이므로, 실제 파일 쓰기는 `planning/`, `Tasks/` 등 **루트 상대 경로**를 쓴다.
+| 문서 | 내용 |
+|------|------|
+| [서사 템플릿](skills/planning-content-narrative/template.md) | 세계관·설정 문서의 구성 |
+| [에셋 프롬프트 템플릿](skills/generate-asset-prompts/template.md) | 프롬프트 파일 구성 |
+| [키아트 프롬프트 템플릿](skills/generate-keyart-prompts/template.md) | 실내외 장면 프롬프트 구성 |
+| [실내 배경 규칙](skills/generate-keyart-prompts/indoor-background.md) | 공간·시점·광원과 예시 |
+| [아트 바이블의 원본 스킬](https://github.com/Donchitos/Claude-Code-Game-Studios) | 프로젝트에 맞춰 조정한 원본 출처 |
