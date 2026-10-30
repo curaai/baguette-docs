@@ -21,7 +21,7 @@ description: >
 | 출력 (정본) | `foundation/art-direction.md` |
 | 입력: 한 줄 약속·가격·장르 | `foundation/game-pitch.md` |
 | 입력: 공포의 근원·감각 연출 | `foundation/horror-direction.md` |
-| 입력: 프로토타입 장면 | `foundation/prototype.md`, `foundation/init.md` |
+| 입력: 프로토타입 장면 | `foundation/prototype.md` |
 | 입력: AI 에셋 제작 흐름 | `foundation/ai-scene-asset-pipeline.md` |
 | 입력: 구역별 비주얼 | `narrative/environment/**` |
 

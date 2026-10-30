@@ -1,6 +1,6 @@
 # [TITLE] — Narrative 문서 (초안)
 
-> 출력 경로는 반드시 `Docs/narrative/**`. 이 문서는 narrative 관련 내용만 담는다(메카닉·UI·수치·코드 델타 금지).
+> 출력 경로는 vault 루트 기준 `narrative/**`. 이 문서는 narrative 관련 내용만 담는다(메카닉·UI·수치·코드 델타 금지).
 
 ## Overview
 
