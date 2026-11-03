@@ -14,5 +14,6 @@ PD의 초기 생각과 기조, 아트 방향과 제작 기준을 모아 둔다.
 | [용어집](glossary.md) | 불교·사찰 용어와 프로젝트 용법 |
 | [아트 디렉션](art-direction.md) | 비주얼 방향과 아트 규칙 |
 | [AI 씬·프랍 제작 파이프라인](ai-scene-asset-pipeline.md) | 기반 에셋의 생성·승인·배치 과정 |
+| [임시 레벨 아이디어](temp-level-idea.md) | 분절된 절 공간에서 긴장감을 이어가는 아이디어 초안 |
 | [기획 목차](../planning/README.md) | 컨텐츠·시스템의 체험과 의도 |
 | [서사 목차](../narrative/README.md) | 사건·장면·세계관 |
