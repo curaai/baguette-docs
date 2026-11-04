@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity GitHub 에셋 찾기"
+  short_description: "GitHub에서 Unity 에셋 폴더를 찾아 다운로드"
+  default_prompt: "Use $unity-asset-search to find and download a Unity package folder from GitHub by filename."
