@@ -4,15 +4,15 @@
 
 ## 우선 검토 후보
 
-| 우선순위 | 에셋 | 확인된 구성·형식 | 요사채 활용 판단 |
-|---|---|---|---|
-| 높음 | [Traditional Korean Room Props – Joseon Dynasty](https://www.fab.com/listings/4c6c5012-5070-464c-bab5-a1c5b9e227fa) | 무료 FBX. 목제 수납장·책상·소반·주방 도구·침구·등잔. | 시대와 분위기가 가장 잘 맞는다. 이미 프로젝트에서 사용 중이므로 재다운로드보다 기존 파일에 책자·다기·천 소품이 있는지 확인한다. 배포본은 subdivision이 없어 페이지에서 최종 사용 시 스무딩을 권장한다. |
-| 높음 | [Korean Traditional Heritage Props](https://www.fab.com/listings/c6193e7c-a21c-47d0-b19c-2f5f006fb2cc) | 무료. KCISA 제작. Fab 표시 포맷은 Unreal Engine. 상업 이용 시 국립중앙박물관 출처 표기 안내. | 전통 유물 기반의 현실적 소품 후보. 미리보기에서 요사채에 쓸 생활품이 있는지 선별하고, Unity 반입 전 FBX 등 교환 파일 제공 여부를 확인한다. |
-| 보통 | [KCISA – Korean Traditional Props](https://www.fab.com/listings/d1ccbdd5-6696-4517-87c2-8b13775c4d6b) | 무료. 전통 의상·악기·무기·석탑 중심. Fab 표시 포맷은 Unreal Engine. | 한국 전통 자료지만 실내 생활 소품과의 직접 관련은 낮다. 악기 등이 원화 연출에 필요할 때만 검토한다. |
-| 보통 | [KCISA – Korean Traditional Interactive Props Vol.1](https://www.fab.com/listings/94c757dc-0ee6-4a57-94d8-2e6eaa0dcda3) | 무료. 전통 악기, 목어, 쌀 저장 용기, 화성행궁 관련 문·기물. Fab 표시 포맷은 Unreal Engine. | 쌀 저장 용기와 목어는 한국적 포인트 프랍 후보. 다만 궁중·사찰 기물의 규모와 장식이 요사채 분위기에 맞는지 확인한다. |
-| 보통 | [Korean Traditional Festival](https://www.fab.com/listings/dff592b9-6b23-479c-8cf6-582a132a3d6c) | 무료. 김포 통진 두레 관련 농경·축제 소품. Fab 표시 포맷은 Unreal Engine. | 실내 접객 소품보다는 마당·외부 생활 연출에 어울린다. |
-| 낮음 | [Korean Traditional Interactive Props Vol.2](https://www.fab.com/listings/19b6f322-bd5d-4b4c-ab93-c1c58509e0ee) | 무료. 전통 수납가구 10종과 상호작용 애니메이션. Fab 표시 포맷은 Unreal Engine. | 프로젝트에 같은 KCISA Vol.2의 Unity 에셋이 이미 있으므로 새 확보보다 기존 프랍을 재사용하는 편이 낫다. |
-| 낮음 | [Traditional Korean Architecture Parts and Props](https://www.fab.com/listings/cdb73533-6caa-4559-a333-af884e31079b) | 93개 이상 건축·소품 메시를 포함한다고 설명. Fab 표시 포맷은 Unreal Engine. 검색 결과에서 무료로 확인되지 않음. | 사찰 건축 부재가 중심이고 가격도 무료로 검증되지 않아 요청 조건의 후보에서 제외한다. |
+| 우선순위 | 에셋                                                                                                                      | 확인된 구성·형식                                                                 | 요사채 활용 판단                                                                                                               |
+| ---- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 높음   | [Traditional Korean Room Props – Joseon Dynasty](https://www.fab.com/listings/4c6c5012-5070-464c-bab5-a1c5b9e227fa)     | 무료 FBX. 목제 수납장·책상·소반·주방 도구·침구·등잔.                                         | 시대와 분위기가 가장 잘 맞는다. 이미 프로젝트에서 사용 중이므로 재다운로드보다 기존 파일에 책자·다기·천 소품이 있는지 확인한다. 배포본은 subdivision이 없어 페이지에서 최종 사용 시 스무딩을 권장한다. |
+| 높음   | [Korean Traditional Heritage Props](https://www.fab.com/listings/c6193e7c-a21c-47d0-b19c-2f5f006fb2cc)                  | 무료. KCISA 제작. Fab 표시 포맷은 Unreal Engine. 상업 이용 시 국립중앙박물관 출처 표기 안내.         | 전통 유물 기반의 현실적 소품 후보. 미리보기에서 요사채에 쓸 생활품이 있는지 선별하고, Unity 반입 전 FBX 등 교환 파일 제공 여부를 확인한다.                                   |
+| 보통   | [KCISA – Korean Traditional Props](https://www.fab.com/listings/d1ccbdd5-6696-4517-87c2-8b13775c4d6b)                   | 무료. 전통 의상·악기·무기·석탑 중심. Fab 표시 포맷은 Unreal Engine.                          | 한국 전통 자료지만 실내 생활 소품과의 직접 관련은 낮다. 악기 등이 원화 연출에 필요할 때만 검토한다.                                                              |
+| 보통   | [KCISA – Korean Traditional Interactive Props Vol.1](https://www.fab.com/listings/94c757dc-0ee6-4a57-94d8-2e6eaa0dcda3) | 무료. 전통 악기, 목어, 쌀 저장 용기, 화성행궁 관련 문·기물. Fab 표시 포맷은 Unreal Engine.           | 쌀 저장 용기와 목어는 한국적 포인트 프랍 후보. 다만 궁중·사찰 기물의 규모와 장식이 요사채 분위기에 맞는지 확인한다.                                                     |
+| 보통   | [Korean Traditional Festival](https://www.fab.com/listings/dff592b9-6b23-479c-8cf6-582a132a3d6c)                        | 무료. 김포 통진 두레 관련 농경·축제 소품. Fab 표시 포맷은 Unreal Engine.                       | 실내 접객 소품보다는 마당·외부 생활 연출에 어울린다.                                                                                          |
+| 낮음   | [Korean Traditional Interactive Props Vol.2](https://www.fab.com/listings/19b6f322-bd5d-4b4c-ab93-c1c58509e0ee)         | 무료. 전통 수납가구 10종과 상호작용 애니메이션. Fab 표시 포맷은 Unreal Engine.                    | 프로젝트에 같은 KCISA Vol.2의 Unity 에셋이 이미 있으므로 새 확보보다 기존 프랍을 재사용하는 편이 낫다.                                                      |
+| 낮음   | [Traditional Korean Architecture Parts and Props](https://www.fab.com/listings/cdb73533-6caa-4559-a333-af884e31079b)    | 93개 이상 건축·소품 메시를 포함한다고 설명. Fab 표시 포맷은 Unreal Engine. 검색 결과에서 무료로 확인되지 않음. | 사찰 건축 부재가 중심이고 가격도 무료로 검증되지 않아 요청 조건의 후보에서 제외한다.                                                                        |
 
 ## 무료 범위에서 확인한 실물 형태 후보
 
