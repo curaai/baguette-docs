@@ -18,5 +18,6 @@
   "mobilePullAction": "command-palette:open",
   "showInlineTitle": false,
   "showUnsupportedFiles": false,
-  "readableLineLength": false
+  "readableLineLength": true,
+  "strictLineBreaks": false
 }
