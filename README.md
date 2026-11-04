@@ -8,8 +8,10 @@ Baguette 프로젝트 문서를 모아 둔 폴더입니다. Obsidian에서도 �
 
 | 폴더/문서 | 내용 |
 |-----------|------|
+| [AGENTS.md](AGENTS.md) | 에이전트 공통 작업 원칙 |
+| [에이전트·스킬 안내](.claude/README.md) | 담당 역할, 스킬과 출력 템플릿 목차 |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | 문서를 짧고 쉬운 말로 쓰는 규칙 |
-| [`TaskNotes/`](TaskNotes/README.md) | 할 일 관리 규칙과 상태판. 진행 중인 일은 `Tasks/`에 둡니다. |
+| [`TaskNotes/`](TaskNotes/README.md) | 할 일 관리 규칙과 상태판. 진행 중인 일은 `TaskNotes/Tasks/<context>/`에 둡니다. |
 | [`foundation/`](foundation/README.md) | PD의 기획 배경과 기자·특종 관련 초기 문서 |
 | [`planning/`](planning/README.md) | 콘텐츠 기획서와 폴더 안내 |
 | [`analysis/`](analysis/README.md) | 공포 게임·영화와 소재 분석 |
@@ -26,8 +28,8 @@ PD가 정한 내용이 가장 먼저입니다. 그다음은 아래 순서를 따
 1. `planning/`의 플레이 경험과 기획 의도
 2. `foundation/`의 초기 생각과 초안
 
-실제 게임 동작은 코드가 기준입니다. 진행 중인 일은 `Tasks/`에서 관리합니다. 이야기 문서는 기획 초안의 필수 조건이 아닙니다.
+서사·세계관·용어는 `narrative/`가 기준입니다. 실제 게임 동작은 코드가 기준입니다. 진행 중인 일은 `TaskNotes/Tasks/<context>/`에서 관리합니다. 이야기 문서는 기획 초안의 필수 조건이 아닙니다.
 
 ## 프로젝트 할 일
 
-프로젝트 할 일은 여러 문서에 나누어 적지 않고 **TaskNotes**에서 관리합니다. 규칙·태그·사용법은 [`TaskNotes/README.md`](TaskNotes/README.md)에서 확인하세요.
+프로젝트 할 일과 진행 중 작업의 재개 정보는 **TaskNotes**에서 관리합니다. 완료·보관 태스크는 이력으로만 봅니다.

@@ -86,7 +86,7 @@ far = 1–2 ridge hints often veiled in cold mist — background for disorientat
 
 ## 실내 공간·시선 문단 예시
 
-실내 프롬프트는 산·하늘 대신 입구에서 방 안쪽 초점까지 이어지는 공간 관계를 고정한다. 세부 규칙과 대웅전 예시는 [indoor-background.md](indoor-background.md)를 따른다.
+실내 프롬프트는 산·하늘 대신 입구에서 방 안쪽 초점까지 이어지는 공간 관계를 고정한다. 세부 규칙과 대웅전 예시는 같은 폴더의 `indoor-background.md`를 따른다.
 
 기본값을 적용할 때는 아래 두 프롬프트를 별도로 출력한다. 각각 독립된 이미지 1장을 생성하기 위한 프롬프트다.
 
@@ -117,4 +117,4 @@ highland isolation with open sky over the yard.
 
 정본: `foundation/art-direction.md`
 
-실내 장면은 해당 건물 문서의 분위기와 [indoor-background.md](indoor-background.md)를 함께 따른다. 외부의 열린 하늘·능선 문구는 실내에 복사하지 않는다.
+실내 장면은 해당 건물 문서의 분위기와 같은 폴더의 `indoor-background.md`를 함께 따른다. 외부의 열린 하늘·능선 문구는 실내에 복사하지 않는다.
