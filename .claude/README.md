@@ -9,10 +9,12 @@
 
 ## 연결 구성
 원본은 항상 `docs/.claude/`다. 아래 경로는 Windows junction이나 등록 파일이므로 따로 수정하지 않는다.
+**junction으로 연결한 경로는 모두 해당 저장소의 `.git/info/exclude`(로컬 exclude)에 등록한다.** 새 junction을 만들면 같은 때 exclude에도 추가한다. 로컬 설정이라 새 PC·새 checkout에서는 junction과 함께 다시 만든다.
 
 | 경로 | 종류 | 가리키는 곳 |
 |------|------|------|
 | `docs/.claude-plugin/plugin.json` | 플러그인 정의 | 플러그인 `docs`, 스킬 경로 `./.claude/skills` |
+| `docs/.codex-plugin` | junction | `docs/.claude/integrations/codex` (Codex용 `plugin.json`, Git 추적은 원본만) |
 | `docs/.agents/skills/generate-asset-image` | junction | `docs/.claude/skills/generate-asset-image` (Codex용 스킬 노출) |
 | 게임 저장소 `.claude-plugin` | junction | 게임 저장소 `.claude/integrations/claude` (marketplace가 `./docs`를 `docs` 플러그인으로 등록) |
 | 게임 저장소 `.codex-plugin` | junction | 게임 저장소 `.claude/integrations/codex` |
