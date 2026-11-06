@@ -34,7 +34,7 @@
 | [create-tasknote](skills/create-tasknote/SKILL.md) | 태스크 초안·기획의 작업 분해 |
 | [generate-spec](skills/generate-spec/SKILL.md) | 기존 스펙 요청을 TaskNotes 초안으로 연결 |
 | [art-bible](skills/art-bible/SKILL.md) | 아트 디렉션 작성·보강 |
-| [generate-asset-prompts](skills/generate-asset-prompts/SKILL.md) | 에셋 원화 프롬프트 파일 |
+| [generate-asset-prompts](skills/generate-asset-prompts/SKILL.md) | 이미지 프롬프트 작성·수정·변형·플랫폼 변환, 채팅 또는 파일 전달 |
 | [generate-keyart-prompts](skills/generate-keyart-prompts/SKILL.md) | 실내외 장면·키아트 프롬프트 |
 | [auto-commit](skills/auto-commit/SKILL.md) | 요청받은 변경 사항 커밋 |
 
@@ -45,7 +45,8 @@
 | [서사 템플릿](skills/planning-content-narrative/template.md) | 세계관·설정 문서의 구성 |
 | [플레이 경험 검토](skills/game-planning/references/play-experience.md) | 행동·선택·피드백·반복과 작은 검증 |
 | [인터랙티브 서사 검토](skills/planning-content-narrative/references/interactive-story.md) | 선택·분기·행동과 이야기 전달의 조화 |
-| [에셋 프롬프트 템플릿](skills/generate-asset-prompts/template.md) | 프롬프트 파일 구성 |
+| [에셋 프롬프트 구성 예시](skills/generate-asset-prompts/template.md) | 신규·수정·다중 뷰·워크플로별 출력 |
+| [에셋 프롬프트의 Baguette 관례](skills/generate-asset-prompts/references/baguette-context.md) | 이 프로젝트에서만 적용하는 근거 탐색과 저장 경로 |
 | [키아트 프롬프트 템플릿](skills/generate-keyart-prompts/template.md) | 실내외 장면 프롬프트 구성 |
 | [실내 배경 규칙](skills/generate-keyart-prompts/indoor-background.md) | 공간·시점·광원과 예시 |
 | [아트 바이블의 원본 스킬](https://github.com/Donchitos/Claude-Code-Game-Studios) | 프로젝트에 맞춰 조정한 원본 출처 |
