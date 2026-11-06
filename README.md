@@ -2,24 +2,7 @@
 
 # 문서 안내
 
-Baguette 프로젝트 문서를 모아 둔 폴더입니다. Obsidian에서도 이 폴더를 엽니다. 필요한 문서는 아래 표에서 찾으세요.
-
-## 문서 목록
-
-| 폴더/문서 | 내용 |
-|-----------|------|
-| [AGENTS.md](AGENTS.md) | 에이전트 공통 작업 원칙 |
-| [에이전트·스킬 안내](.claude/README.md) | 담당 역할, 스킬과 출력 템플릿 목차 |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | 문서를 짧고 쉬운 말로 쓰는 규칙 |
-| [`TaskNotes/`](TaskNotes/README.md) | 할 일 관리 규칙과 상태판. 진행 중인 일은 `TaskNotes/Tasks/<context>/`에 둡니다. |
-| [`foundation/`](foundation/README.md) | PD의 기획 배경과 기자·특종 관련 초기 문서 |
-| [`planning/`](planning/README.md) | 콘텐츠 기획서와 폴더 안내 |
-| [`analysis/`](analysis/README.md) | 공포 게임·영화와 소재 분석 |
-| [`narrative/`](narrative/README.md) | 기자 시점의 세계관·이야기·캐릭터·오프닝 |
-| [`art/`](art/) | 그림 자료 폴더 |
-| [`art/style-board/`](art/style-board/) | 대표 배경 그림과 스타일 참고 이미지 |
-| [`art/concepts/`](art/concepts/README.md) | 프로젝트에서 제작한 캐릭터·소품·환경 원화, 모델링 참고 시트와 배경 컨셉 아트 |
-| [`art/reference-image-board/`](art/reference-image-board/) | 공간 참고 이미지. `meta.txt`에 링크·제목·파일 이름을 적습니다. |
+Baguette 프로젝트 문서를 모아 둔 폴더입니다. Obsidian에서도 이 폴더를 엽니다. 필요한 문서는 폴더 구조와 검색으로 찾으세요.
 
 ## 문서 내용이 다를 때
 
@@ -33,7 +16,3 @@ PD가 정한 내용이 가장 먼저입니다. 그다음은 아래 순서를 따
 ## 프로젝트 할 일
 
 프로젝트 할 일과 진행 중 작업의 재개 정보는 **TaskNotes**에서 관리합니다. 완료·보관 태스크는 이력으로만 봅니다.
-
-## Codex 스킬
-
-- [Unity 에셋 검색](unity-asset-search/SKILL.md): GitHub에서 파일명으로 Unity 에셋/패키지 폴더를 찾아 다운로드합니다.
