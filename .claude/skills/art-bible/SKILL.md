@@ -5,7 +5,7 @@ description: >
   비주얼 아이덴티티, 무드, 형태, 색, 캐릭터, 환경, UI, 에셋 규격, 레퍼런스를 섹션별로
   art-director 초안 → PD 승인 → 파일 반영 순서로 진행한다.
   트리거: 아트 바이블, 아트 디렉션 작성, 룩 정리, 비주얼 아이덴티티, 팔레트·라이팅 규칙 정리, art-bible.
-  에셋 원화 프롬프트는 generate-asset-prompts, 키아트·배경 프롬프트는 generate-keyart-prompts를 쓴다.
+  에셋 원화 프롬프트는 generate-asset-prompts, 실제 에셋 이미지 생성·편집은 generate-asset-image를 쓴다.
 ---
 
 # 아트 바이블
@@ -200,7 +200,7 @@ description: >
 
 - `환경 문서 정리` — `narrative/environment/`의 팔레트·라이팅 중복 문장을 정본(art-direction)과 대조해 구역별 차이만 남기자고 제안
 - `에셋 원화 프롬프트` — `generate-asset-prompts`로 이어서 프랍·캐릭터 원화
-- `키아트·배경 프롬프트` — `generate-keyart-prompts`로 이어서 장면 배경
+- `에셋 이미지 생성·편집` — `generate-asset-image`로 이어서 레퍼런스 기반 이미지 제작
 - `여기서 멈추기`
 
 이미 끝난 것은 제외하고, 가장 자연스러운 하나에 (추천)을 붙인다.
