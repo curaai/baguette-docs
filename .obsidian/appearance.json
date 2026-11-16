@@ -4,5 +4,6 @@
     "Kanban Redesign",
     "Kanban Last Column",
     "TaskNotes Kanban"
-  ]
+  ],
+  "showRibbon": true
 }
