@@ -1,13 +1,14 @@
 ---
 status:
-  - todo
+  - done
 priority: low
 tags:
   - task
   - 아트
 contexts:
   - Prototype.V0.1
-dateModified: 2026-10-23T15:46:00.458+09:00
+dateModified: 2026-11-16T18:57:12.453+09:00
+completedDate: 2026-11-16
 ---
 
 GDC Vault가 다시 열리면 아래 자료를 읽고 `art-bible` 스킬(`.claude/skills/art-bible/`)에 반영한다.
