@@ -1,0 +1,21 @@
+생성 도구: 내장 ImageGen
+수정: 긴 벽면 책상을 정사각형 낮은 테이블로 바꿔 거실 중앙에 배치
+
+Edit this exact Korean temple lodging concept board. The user's explicit new instruction is: CHANGE THE EXISTING LONG TABLE INTO A SQUARE TABLE AND PLACE IT IN THE CENTER OF THE ROOM. This overrides the previous left-wall desk position. Make this one layout change cleanly, preserving the rest of the approved room.
+
+TABLE CHANGE:
+Remove the long narrow writing desk from the OUTER LEFT WALL entirely in BOTH room views. Restore the wood floor and wall space where it stood; do not leave a second desk, wall console or tabletop behind. Its paper bundles may tuck neatly at the base of the existing bookcase.
+Replace it with ONE modest LOW SQUARE WOODEN FLOOR TABLE in the CENTER OF THE LEFT LIVING ROOM. It must have a genuinely square 1:1 tabletop plan, four short legs, worn dark wood with simple joinery, and comfortable floor-sitting height. Not round, not a long rectangular desk, not a tall dining table, not an enclosed cabinet. Align its edges with the room's walls. Center it in the usable living-room floor between the left wall and the bedroom partition and between the entrance and back storage; do not center it over the whole combined living/bedroom footprint.
+Move the existing teapot and cup on ONE small tray, the open magazine, a few folded newspaper sheets and a modest writing tool set onto this central table, distributed naturally with some tabletop visible. All tea items remain ON THE TABLETOP, never on the floor. Keep the table small enough for comfortable passage around it, with an especially clear route from the front entrance past its right side to the bedroom doorway.
+Move the existing burgundy floor seat with its low backrest and gray blanket to the LEFT SIDE of the central square table, facing RIGHT toward the television across the table. Let the table serve that seat, with realistic seated reach. It is a low table so the seated viewer can see the television above it. Do not leave the seat marooned away from the table. Put the remote on the table corner nearest the seat and remove the old newspaper/remote floor mat so it does not obstruct a walking route.
+
+PRESERVE:
+Same long rectangular building, larger LEFT living room and narrow RIGHT bedroom, same room widths/depths, partition, exterior timber entrance and lattice-paper connecting door. Same back-wall compact bookcase, linen cupboard and exactly ONE single-column open display shelf. Same small CRT television on the existing low partition-side support, fan in the back-left living-room area, wall clock/calendar above the TV, safe cables along walls, paper lamp and wall decorations. The fan aims toward the new seated position beside the square table. Keep bedroom bedding front-to-back parallel to the divider, locked cabinet, robe, towels, bedside belongings and entrance luggage. No new cabinets, rooms, decorations, appliances or duplicate tables. No changes to muted natural colors, material wear or soft realistic lighting.
+
+VIEW CONSISTENCY:
+Update BOTH the dominant quarter-view cutaway AND the ONE eye-level inset to show exactly this same central SQUARE table, left-side seat, TV sightline and empty former desk wall. The cutaway remains the floor-plan authority. Keep the compact living-room proportions and narrow bedroom identical in the inset; no enlarging the room to accommodate the table, no rotating the mattress, no wide-angle stretching. Tabletop may foreshorten naturally in perspective but is square in physical plan in both views.
+
+BOARD:
+Same landscape neutral-charcoal board with dominant cutaway LEFT, exactly one eye-level inset UPPER RIGHT and isolated matching props below. Add a clear isolated cutout of the NEW SQUARE LOW TABLE with the same tea/reading items and floor seat as space permits, replacing a redundant prop cutout rather than squeezing the board. No lettering, labels, arrows, dimensions, UI, watermarks or people.
+
+VERIFY: one square low table in the living-room CENTER in both views; no remaining long desk on the left wall; all tea on tabletop; seat to its left facing TV; accessible entrance and bedroom door; single-column display shelf.

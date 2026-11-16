@@ -1,0 +1,44 @@
+생성 도구: 내장 ImageGen
+수정: 침실 목제 수납장 제거, 잠긴 보관장 및 도자기·향 그릇을 거실 왼쪽 벽으로 이동
+
+첫 편집
+Edit this exact Korean temple lodging concept board with the user's TWO corrections:
+(1) The bedroom has too much storage furniture and must become a simple sleeping space.
+(2) The PADLOCKED CABINET must be in the LIVING ROOM, not in the bedroom.
+
+This is a targeted furniture relocation/removal. Preserve the latest CENTRAL SQUARE LOW TABLE and all approved living-room activities, television, fan, floor seat, clock/calendar, doors and architecture.
+
+BEDROOM — REMOVE EXCESS STORAGE:
+- Remove the low PADLOCKED DARK WOOD CABINET currently against the bedroom's FAR/BACK wall, including its cabinet footprint. Move this same cabinet and its essential tabletop items to the living room as described below. Do not leave a duplicate cabinet or lock in the bedroom.
+- Remove the low wooden bedding-storage chest currently beside the FOOT/FRONT-RIGHT side of the mattress, including the folded bedding pile sitting on it. Restore clean wood planks at its former footprint.
+- Remove any additional bedside drawer unit or large wooden bedside storage box. A small shallow bedside reading tray on the floor, with a closed book and unlit hand lantern, is enough.
+- Keep the single front-to-back floor mattress, its ivory pillow at the far/back end, faded green-and-burgundy quilt, simple slippers, outer-wall peg rail with robe and cloth pouches, and ONE small woven basket with a folded towel near the far outer-right corner. Keep the modest framed landscape if already present.
+- Bedroom should now feel narrow, calm and restful: bedding, a few personal belongings, no wooden storage cabinets or dressers. Do not fill the cleared space with new props, new shelving or another bed. Keep the exact bedroom width/depth and doorway.
+
+LIVING ROOM — RELOCATE THE LOCKED CABINET AS A SEPARATE INVESTIGATION POINT:
+- Place the SAME low cabinet from the bedroom AGAINST THE OUTER LEFT LIVING-ROOM WALL, toward its FRONT/ENTRANCE-side section, in the freed wall area where the old long writing desk used to stand. Orient its doors toward the living-room interior and make the aged metal PADLOCK at the meeting of its shut front doors clearly identifiable.
+- Keep cabinet small and low; provide clearance between it and the low floor seat/central square table. Preserve a usable entrance and circulation route. Do not enlarge the room or shift the central table to make it fit.
+- Move its pale ceramic vessel, small nearly unused incense bowl and neatly folded cloth onto the relocated cabinet's top. No active smoky altar, statue or shrine. The protective talisman jar remains hidden INSIDE the closed locked cabinet.
+- This locked cabinet is DISTINCT from the TV support, with a different location and function. The TELEVISION remains on its existing low support against the living-room side of the bedroom partition, facing the floor seat. Remove any padlock that the previous image accidentally gave the TV support; its front has only a simple ordinary wood pull/handle. There must be exactly ONE visibly padlocked cabinet in the whole lodging, and it is now along the LEFT living-room wall, NEVER below the TV.
+- Do not add any other cabinet, shelving, trunk or dresser. One cabinet moves between rooms, the excessive bedding chest is removed.
+
+LOCK OTHER EXISTING DESIGN:
+Larger LEFT living room / narrow RIGHT bedroom, same building footprint and room proportions; same exterior timber door and connecting lattice-paper door; central genuinely SQUARE low table with one tabletop tea tray, open book, folded newspaper and remote; floor seat to its LEFT facing the TV; fan near the back-left bookcase zone; back-wall bookcase, open linen cupboard and exactly ONE slender SINGLE-COLUMN open display shelf; wall clock/calendar, safe electrical cords, lamp, luggage and shoes. Preserve aged wood, muted plaster, subdued green/burgundy textiles, lighting and near-photoreal material detail. No tea on floor and no new decor.
+
+CONSISTENCY:
+Apply the SAME relocation and removals to BOTH the dominant quarter-view cutaway and the ONE eye-level inset. In the inset from near the entrance toward the back wall and partition, the new left-wall padlocked cabinet may appear near the left foreground edge, but ensure its location is plausibly consistent with the cutaway. Keep the table at the same room-center position and retain compact room proportions. Through the bedroom doorway show the now-cleared bedroom with no remaining wooden storage cabinet or bedding chest.
+
+BOARD:
+Same landscape charcoal board, dominant cutaway LEFT, exactly one eye-level inset UPPER RIGHT, isolated props below. Add a separate isolated cutout of the relocated low padlocked cabinet with its ceramic/incense items. Keep the TV on its separate UNLOCKED support as another cutout; they are TWO DISTINCT objects and must not merge. Remove isolated cutouts of bedroom storage pieces that no longer exist. Keep other selected props as space permits. No text labels, arrows, dimensions, UI, watermarks or people.
+
+FINAL CHECK: no wooden storage furniture in bedroom; exactly one locked cabinet against LEFT LIVING-ROOM wall with ceramics/incense on top; TV separate on unlocked partition-side support; square central table unchanged; no duplicate furniture or blocked doors.
+
+소품 교정
+Make one tiny targeted correction to this exact completed Korean temple lodging board. Preserve ALL architecture, layout, furniture positions, clear bedroom, central square table, floor seat, TV, fan, clocks, doors, proportions, lighting and composition pixel-faithfully as far as possible.
+The newly relocated PADLOCKED CABINET AGAINST THE LEFT LIVING-ROOM WALL is a protected household/ritual cabinet, not another tea station. Its tabletop was accidentally rendered with a teapot and cup. In the main cutaway, the eye-level inset's left-foreground cabinet, AND its separate bottom-left isolated cabinet cutout, replace ONLY those tabletop objects with:
+- ONE small pale ivory ceramic STORAGE VESSEL with an unbroken rounded body and short narrow mouth, NO SPOUT and NO HANDLE, clearly not a teapot.
+- ONE very small dark bronze INCENSE BOWL, nearly unused, with a little cold ash and ONE short unlit incense stick, clearly not a teacup. No smoke or active flame.
+- ONE neatly folded off-white cleaning cloth.
+Keep the padlock clearly visible on the cabinet doors and keep the cabinet at the left living-room wall, distinct from the unlocked TV support. No cabinet or dresser returns to the bedroom.
+The actual teapot-and-cup tea tray stays ON THE CENTRAL SQUARE TABLE, unchanged. Do not modify or duplicate that tea service. This is the only tea service in the room.
+Make absolutely no other changes. Keep the same landscape board, dominant left cutaway, one upper-right eye-level view, bottom prop cutouts; no text labels or people.
