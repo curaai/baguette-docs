@@ -11,6 +11,14 @@
 	display: none;
 }
 
+/* UNDERLINE IN-PROGRESS TASK TITLES */
+
+.tasknotes-plugin .task-card--status-in-progress > .task-card__main-row .task-card__title {
+	text-decoration: underline;
+	text-decoration-color: var(--interactive-accent);
+	text-underline-offset: 0.15em;
+}
+
 /*
   Top-level only: hide cards that are assigned to a project (subtasks).
   Nested cards under unfold use .task-card--subtask and stay visible.
