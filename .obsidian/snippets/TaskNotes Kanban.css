@@ -20,9 +20,9 @@
 }
 
 /*
-  Top-level only: hide cards that are assigned to a project (subtasks).
-  Nested cards under unfold use .task-card--subtask and stay visible.
+  Hide project-assigned cards only at the top level of the Kanban board.
+  Expanded subtasks and task editor cards stay visible.
 */
-.tasknotes-plugin .task-card[class*="task-card--project-"]:not(.task-card--subtask) {
+.tasknotes-plugin .kanban-view__card-wrapper > .task-card[class*="task-card--project-"]:not(.task-card--subtask) {
 	display: none !important;
 }
